@@ -18,7 +18,17 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public IActionResult Test_air()
+        public IActionResult Test_PC()
+        {
+            return View();
+        }
+
+        public IActionResult Index_air()
+        {
+            return View();
+        }
+
+        public IActionResult Index_air2()
         {
             return View();
         }
