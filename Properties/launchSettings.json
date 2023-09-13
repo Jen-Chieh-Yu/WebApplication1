@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 ﻿{
+=======
+{
+>>>>>>> Stashed changes
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -10,11 +14,19 @@
   "profiles": {
     "WebApplication1": {
       "commandName": "Project",
+<<<<<<< Updated upstream
       "dotnetRunMessages": true,
+=======
+>>>>>>> Stashed changes
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5214",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+<<<<<<< Updated upstream
+=======
+      },
+      "dotnetRunMessages": true
+>>>>>>> Stashed changes
     },
     "IIS Express": {
       "commandName": "IISExpress",
