@@ -28,14 +28,16 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-<<<<<<< Updated upstream
         public IActionResult Index_air2()
         {
             return View();
         }
 
-=======
->>>>>>> Stashed changes
+        public IActionResult Index_air3()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
