@@ -18,7 +18,7 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public IActionResult Test_PC()
+        public IActionResult About()
         {
             return View();
         }
