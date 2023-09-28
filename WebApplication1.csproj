@@ -12,7 +12,31 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Photos\" />
     <Folder Include="ViewComponents\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\photo\Merchandise\日本 明治「GOCHI」軟糖.png" />
+    <None Include="wwwroot\photo\Merchandise\日本BOURBON北日本條狀軟糖.png" />
+    <None Include="wwwroot\photo\Merchandise\日本Glico格力高 9袋入百利滋野菜棒.png" />
+    <None Include="wwwroot\photo\Merchandise\日本Glico格力高 Pocky百奇 櫻花抹茶棒-9袋入.png" />
+    <None Include="wwwroot\photo\Merchandise\日本《明治》杏仁巧克力.png" />
+    <None Include="wwwroot\photo\Merchandise\日本梅津堂特選梅片.png" />
+    <None Include="wwwroot\photo\Merchandise\日本神田 綜合點心米果.png" />
+    <None Include="wwwroot\photo\Merchandise\東豊洋芋片-奶油鹽風味4枚入包.png" />
+    <None Include="wwwroot\photo\Merchandise\蠟筆小新巧克比盒-巧克力風味.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國CJ Petitzel 美味蘋果軟糖.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國CW大蒜麵包餅乾.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國ORION好麗友 葡萄軟糖.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國ORION好麗友烏龜玉米脆片餅乾.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國Toms大蒜麵包杏仁果.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國好麗友 水蜜桃QQ軟糖.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國火辣雞肉風味鐵板炒麵.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國燒酒.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國辛拉麵.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國農心浣熊炸醬麵.png" />
+    <None Include="wwwroot\photo\Merchandise\韓國金螃蟹海鮮風味拉麵.png" />
   </ItemGroup>
 
 </Project>
