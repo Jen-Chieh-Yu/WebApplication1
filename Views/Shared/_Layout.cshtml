@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebApplication1</title>
+    <title>@ViewData["Title"] - Jay's Shop</title>
+    <link rel="icon" href="~/WebApplication1/wwwroot/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
@@ -11,8 +12,8 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebApplication1</a>
+            <div class="container-fluid">                
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Homepage"></a>                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,7 +21,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Homepage">首頁</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">線上商店</a>
@@ -36,11 +37,14 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <img src="D:\Microsoft Visual Studio\Web Design\WebApplication1\Photos\Merchandise\日本 明治「GOCHI」軟糖.png" style="width:50%;">
+            <img src="d:\microsoft visual studio\web design\webapplication1\wwwroot\icon.png" style="width:50%">
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container" style="text-align:center">
+            <span class="">&copy;@DateTime.Now.Year - Jay's Shop All Rights Reserved. | <a href="#">關於 Jay's  Shop</a></span>
             &copy; 2023 - WebApplication1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
